@@ -1,0 +1,66 @@
+
+.container {
+    padding:30rpx 0 0
+}
+
+.node-item {
+    height:100rpx;
+    line-height: 100rpx;
+    border-bottom:1px solid #ddd;
+    font-size:14px;
+    color:#333;
+}
+
+.node-title {
+    padding-left:30px;
+}
+.container2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*最新案例*/
+.line{
+    display: flex;
+    margin: 5rpx;
+    border: #ddd solid 1px;
+    padding: 5rpx;
+}
+.toutiao{
+    padding: 10rpx;
+}
+.toutiao-img{
+    width: 80px;
+    height: 80px;
+}
+.two-line-text{
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+.text-center{
+    margin: 0 auto;
+}
+
+.txt1{
+    margin: 3px 3px;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+.txt2{
+    margin: 3px 3px;
+    font-size: 12px;
+     color: #656565;
+    white-space: nowrap;
+}
+.txt3{
+    margin: 3px 3px;
+    font-size: 13px;
+    color: #656565;
+    white-space: nowrap;
+}

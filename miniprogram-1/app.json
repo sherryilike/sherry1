@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/fuwu/index",
+    "pages/fuwu/fuwu_xinxi",
+    "pages/chanpin/index",
+    "pages/zixun/index",
+    "pages/guanyu/index",
+    "pages/chanpin/mybtn",
+    "pages/chanpin/myimg",
+    "pages/chanpin/myshijian",
+    "pages/chanpin/myfor",
+    "pages/guanyu/guanyu_info",
+    "pages/guanyu/lianxiwom"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "聪聪欢迎你",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"images/home-off.png",
+        "selectedIconPath":"images/home-on.png"
+      },
+      {
+        "pagePath": "pages/fuwu/index",
+        "text": "服务项目",
+        "iconPath": "images/fuwu-off.png",
+        "selectedIconPath": "images/fuwu-on.png"
+      },
+      {
+        "pagePath": "pages/chanpin/index",
+        "text": "产品案例",
+        "iconPath": "images/chanpin-off.png",
+        "selectedIconPath": "images/chanpin-on.png"
+      },
+      {
+        "pagePath": "pages/zixun/index",
+        "text": "咨询信息",
+        "iconPath": "images/zixun-off.png",
+        "selectedIconPath": "images/zixun-on.png"
+      },
+      {
+        "pagePath": "pages/guanyu/index",
+        "text": "关于我们",
+        "iconPath": "images/kefu-off.png",
+        "selectedIconPath": "images/kefu-on.png"
+      }
+    ]
+  }
+}

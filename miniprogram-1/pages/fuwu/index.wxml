@@ -1,0 +1,19 @@
+<view class="container2">
+  <view >
+    <block wx:for="{{fuwu}}">
+        <navigator url="fuwu_xinxi?id={{item.id}}" hover-class="navigator-hover" >
+            <view class="line toutiao">
+                    <image class="toutiao-img" src="{{item.img}}"></image>
+                    <view class="two-line-text">
+                        <text class="text-center txt1">{{item.title}}</text>
+                        <text class="text-center txt2">{{item.shijian}}</text>
+                        <text class="text-center txt3">{{item.shuoming}}</text>
+                    </view>
+            </view>          
+        </navigator>
+    </block>
+  </view>
+  <loading hidden="{{hidden}}">
+    加载中...
+  </loading>
+</view>

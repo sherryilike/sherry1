@@ -1,0 +1,15 @@
+<navigator url='mybtn'>
+<text>表单组件button按钮</text>
+</navigator>
+
+<navigator url='myimg'>
+<text>媒体组件image图片组</text>
+</navigator>
+
+<navigator url='myshijian'>
+<text>事件和函数演示</text>
+</navigator>
+
+<navigator url='myfor'>
+<text>列表渲染wx:for</text>
+</navigator>

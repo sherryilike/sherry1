@@ -1,0 +1,2 @@
+<button bindtap="setbiaoti01">标题一</button>
+<button bindtap="setbiaoti02">标题二</button>
